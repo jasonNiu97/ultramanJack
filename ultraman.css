@@ -1,0 +1,107 @@
+/* 老操作：清除内外边距 */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/*超链接 */
+a {
+    text-decoration: none;
+}
+
+
+
+/* 主题 */
+.page-theme {
+    display: inline-block;
+    text-align: center;
+    width: 400px;
+    height: 400px;
+    background: url(images/738b4710b912c8fcc3ce9004a14f8545d688d53f8bec.jpeg) no-repeat -200px -100px;
+}
+
+/* 页面头部 */
+.top-area {
+    position: relative;
+    border-top: 3px #ad2007 solid;
+    border-bottom: 1px #edeef0 solid;
+    height: 41px;
+    line-height: 41px;
+    background-color: #fcfcfc;
+    text-align: center;
+}
+
+.top-area .log-in {
+    position: relative;
+    bottom: 41px;
+    width: 200px;
+    height: 200px;
+    border-top: 3px #ad2007 solid;
+    /* display: none; */
+}
+
+.top-area .log-in span {
+    position: absolute;
+    width: 0;
+    height: 0;
+    line-height: 0;
+    font-size: 0;
+    border: 5px solid transparent;
+    border-bottom: #ad2007;
+}
+
+
+
+.top-area a {
+    display: inline-block;
+    font-size: 14px;
+    color: #4c4c4c;
+    height: 41px;
+    padding: 0 20px;
+}
+
+.top-area a:hover {
+    background-color: #eee;
+    color: #ad2007;
+}
+
+
+/* 正文格式 */
+p {
+    text-align: left;
+    text-indent: 2em;
+    line-height: 26px;
+    font-size: 16px;
+}
+
+/* 导航区域 */
+#nav-area {
+    margin: 0 auto 10px auto;
+    height: 400px;
+    width: 1000px;
+
+}
+
+/* 导航格式 */
+.nav {
+    display: inline-block;
+    text-align: center;
+    background-color: #fcfcfc;
+    width: 150px;
+}
+
+.nav a {
+    display: block;
+    height: 40px;
+    line-height: 40px;
+}
+
+.nav a:hover {
+    background-color: #eee;
+    color: #ad2007;
+}
+
+/* 登陆按钮 */
+.sign-in-botton {
+    font-weight: 700;
+}

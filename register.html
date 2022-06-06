@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="ultraman.css">
+</head>
+
+<body>
+    <h3> 欢迎来到奥特星球 </h3>
+    <form>
+        <table>
+            <!-- 第一行：用户名 -->
+            <tr>
+                <td> 奥特ID</td>
+                <td> <input type="text"> </td>
+            </tr>
+            <!-- 第二行：密码 -->
+            <tr>
+                <td> 奥特密码 </td>
+                <td> <input type="password"> </td>
+            </tr>
+            <!-- 第三行：性别 -->
+            <tr>
+                <td> 性别 </td>
+                <td>
+                    <input type="radio" name="sex" checked="checked" id="sex_boy"> <label for="sex_boy"> 男 </label>
+                    <input type="radio" name="sex" id="sex_girl"> <label for="sex_girl"> 女 </label>
+                    <input type="radio" name="sex" id="sex_other"> <label for="sex_other"> 其他 </label>
+                </td>
+            </tr>
+            <!-- 第四行：出生 -->
+            <tr>
+                <td> 出生时期 </td>
+                <td> <select>
+                        <option selected="selected"> 请选择 </option>
+                        <option> 昭和时期 </option>
+                        <option> 平成时期 </option>
+                        <option> 令和时期 </option>
+                    </select> </td>
+            </tr>
+            <!-- 第五行：喜好 -->
+            <tr>
+                <td> 最爱的时期 </td>
+                <td>
+                    <input type="checkbox" name="area" id="area_zhaohe" checked="checked"> <label for="area_zhaohe">
+                        昭和时期 </label>
+                    <input type="checkbox" name="area" id="area_pingcheng" checked="checked"> <label
+                        for="area_pingcheng"> 平成时期 </label>
+                    <input type="checkbox" name="area" id="area_linghe"> <label for="area_linghe"> 令和时期 </label>
+
+                </td>
+            </tr>
+            <!-- 第六行：门槛 -->
+            <tr>
+                <td> 请背诵奥特五大誓言 </td>
+                <td> <textarea> </textarea></td>
+            </tr>
+            <!-- 第七行：登录按钮 -->
+            <tr>
+                <td> </td>
+                <td> <input type="submit" value="登录星球！"> </td>
+            </tr>
+            <!-- 第八行：条款 -->
+            <tr>
+                <td> </td>
+                <td>
+                    <input type="checkbox" checked="checked" id="tiaokuan">
+                    <label for="tiaokuan"> 我同意奥特条款和五大誓言 </label> <a href="https://www.zhihu.com/question/22386856">
+                        点击查看你忘掉的五大誓言 </a>
+                </td>
+            </tr>
+            <!-- 第九行：一些屁话 -->
+            <tr>
+                <td> </td>
+                <td>
+                    <dl>
+                        <dt> 请遵守 </dt>
+                        <dd> 和谐 </dd>
+                        <dd> 友爱 </dd>
+                    </dl>
+                </td>
+            </tr>
+            <!-- 第十行：返回主页 -->
+            <tr>
+                <td></td>
+                <td> <a href="ultraman jack.html">忘记已经来过了</a></td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>
